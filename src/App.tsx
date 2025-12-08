@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './routes/Home'
 import HomeIndex from './routes/Home/HomeIndex'
 import Promocao from './routes/Home/Promocao'
+import Inscricao from './routes/Home/Inscricao'
 
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
             <Route index element={<HomeIndex />} />
             <Route path='home' element={<HomeIndex />} />
             <Route path='promocao' element={<Promocao />} />
+            <Route path='inscricao' element={<Inscricao />} />
           </Route>
         </Routes>
       </BrowserRouter>
